@@ -1,0 +1,197 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-snap-type: y proximity;
+}
+
+.wrapper #landing {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./assets/images/landing_page_background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wrapper #landing .landing-header {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.wrapper #landing .landing-header .navbar {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "JuliusSansOne", "Times New Roman", Times, serif;
+  text-transform: uppercase;
+}
+.wrapper #landing .landing-header .navbar a {
+  color: white;
+  text-decoration: none;
+}
+.wrapper #landing .title {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "GreatVibes", "Times New Roman", Times, serif;
+  font-size: 7.5em;
+  color: white;
+}
+.wrapper #project {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.wrapper #project .container {
+  width: 70%;
+  height: 100%;
+  display: flex;
+}
+.wrapper #project .container .project-desc {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.wrapper #project .container .project-desc h1 {
+  font-family: "LuckiestGuy", "Times New Roman", Times, serif;
+  font-size: 2.5em;
+}
+.wrapper #project .container .project-desc p {
+  margin-top: 1em;
+  font-family: "SourceSansPro", "Times New Roman", Times, serif;
+  font-size: 1.25em;
+  line-height: 2em;
+}
+.wrapper #project .container .project-aside {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.wrapper #project .container .project-aside #ecvet-logo {
+  margin-top: 20px;
+  max-width: 300px;
+}
+.wrapper #project .container .project-aside #erasmus-logo {
+  margin-top: 20px;
+  max-width: 300px;
+}
+.wrapper #team {
+  scroll-snap-align: start;
+}
+.wrapper #team .team-header {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  background-image: url(./assets/images/team_photo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "GreatVibes", "Times New Roman", Times, serif;
+  font-size: 7.5em;
+  color: white;
+  padding-top: 0.75em;
+}
+.wrapper #team .team-members {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+}
+.wrapper #team .team-members table {
+  width: 80%;
+  border-spacing: 5em 0px;
+}
+.wrapper #team .team-members table tr td {
+  margin: 2em 0;
+}
+.wrapper #team .team-members table tr td img {
+  border-radius: 100%;
+}
+.wrapper #team .team-members table tr td figcaption {
+  margin-top: 10px;
+  text-align: center;
+  font-family: "SourceSansPro", "Times New Roman", Times, serif;
+  font-size: 1.25em;
+}
+.wrapper #workplace {
+  scroll-snap-align: start;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper #workplace .workplace-header {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "LuckiestGuy", "Times New Roman", Times, serif;
+  font-size: 2.5em;
+}
+.wrapper #workplace main {
+  height: 85%;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper #workplace main .workplace-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.wrapper #workplace main .workplace-section .workplace-section-header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 15%;
+  font-family: "LuckiestGuy", "Times New Roman", Times, serif;
+  font-size: 2em;
+}
+.wrapper #workplace main .workplace-section article {
+  width: 70%;
+  height: 30%;
+  font-family: "SourceSansPro", "Times New Roman", Times, serif;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+@font-face {
+  font-family: GreatVibes;
+  src: url(./assets/fonts/GreatVibes-Regular.ttf);
+}
+@font-face {
+  font-family: JuliusSansOne;
+  src: url(./assets/fonts/JuliusSansOne-Regular.ttf);
+}
+@font-face {
+  font-family: LuckiestGuy;
+  src: url(./assets/fonts/LuckiestGuy.ttf);
+}
+@font-face {
+  font-family: SourceSansPro;
+  src: url(./assets/fonts/SourceSansPro-Regular.ttf);
+}
+
+/*# sourceMappingURL=index.css.map */
