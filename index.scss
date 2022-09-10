@@ -195,6 +195,113 @@ html {
       }
     }
   }
+
+  #getting-started {
+    scroll-snap-align: start;
+    height: 80vh;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aside {
+      flex: 1;
+
+      ul {
+        width: 80%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        li {
+          margin-top: 0.5em;
+          display: flex;
+          justify-content: center;
+        }
+
+        .list-item {
+          background: rgba(255, 255, 255, 0.02);
+          border: 4px solid #000000;
+          box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, 0.25);
+          border-radius: 50px;
+          width: 60%;
+          font-family: "Staatliches";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 30px;
+          display: flex;
+          align-items: center;
+        }
+
+        .dot {
+          width: 15px;
+          height: 15px;
+          background: #000000;
+          border-radius: 15px;
+          text-align: center;
+        }
+      }
+    }
+
+    main {
+      flex: 1;
+      font-family: "SourceSansPro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 34px;
+      text-align: right;
+
+      header {
+        margin-bottom: 15px;
+        font-family: "LuckiestGuy", "Times New Roman", Times, serif;
+        font-size: 2.5em;
+      }
+    }
+  }
+
+  #gallery {
+    scroll-snap-align: start;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    header {
+      font-family: "LuckiestGuy", "Times New Roman", Times, serif;
+      font-size: 2.5em;
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    section {
+      width: 800px;
+
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  footer {
+    height: 15vh;
+    background-image: url(./assets/images/footer_background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: "Staatliches";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+  }
 }
 @font-face {
   font-family: GreatVibes;
@@ -214,4 +321,9 @@ html {
 @font-face {
   font-family: SourceSansPro;
   src: url(./assets/fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+  font-family: Staatliches;
+  src: url(./assets/fonts/Staatliches-Regular.ttf);
 }

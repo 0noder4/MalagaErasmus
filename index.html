@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./assets/splide-4.0.14/splide-4.0.14/dist/css/splide.min.css">
     <title>Erasmus Malaga 2022</title>
+    <script src="./assets/splide-4.0.14/splide-4.0.14/dist/js/splide.min.js"></script>
 </head>
 <body>
     <div class="wrapper">
@@ -143,6 +145,53 @@
                 </section>
             </main>
         </div>
+        <div id="getting-started">
+            <aside>
+                <ul>
+                    <li class="list-item">Zasady kwalifikacji</li>
+                    <li><div class="dot"></div></li>
+                    <li class="list-item">Formularz aplikacyjny</li>
+                    <li><div class="dot"></div></li>
+                    <li class="list-item">Załącznik nr 1</li>
+                    <li><div class="dot"></div></li>
+                    <li class="list-item">Załącznik nr 2</li>
+                    <li><div class="dot"></div></li>
+                    <li class="list-item">Załącznik nr 3</li>
+                    <li><div class="dot"></div></li>
+                    <li class="list-item">Załącznik nr 4</li>
+                </ul>
+            </aside>
+            <main>
+                <header class="getting-started-header">Jak dostaliśmy się na praktyki zagraniczne?</header>
+                <section>Erasmus+ to program Unii Europejskiej w dziedzinie edukacji, szkoleń, młodzieży i sportu na lata 2014-2020. Jego całkowity budżet wynosi 14,7 mld euro. Erasmus+ opiera się na osiągnięciach europejskich programów edukacyjnych, które funkcjonowały przez 25 lat, i jest wynikiem połączenia następujących europejskich inicjatyw realizowanych przez Komisję Europejską w latach 2007-2013: programu „Uczenie się przez całe życie”, programu „Młodzież w działaniu”, Erasmus Mundus, Tempus, Alfa, Edulink, oraz programów współpracy z krajami uprzemysłowionymi w dziedzinie szkolnictwa wyższego. Program Erasmus+ został opracowany tak, aby wspierać kraje uczestniczące w programie w zakresie efektywnego wykorzystywania potencjału kapitału społecznego oraz promowania idei uczenia się przez całe życie. Erasmus+ to również odpowiedź na potrzeby współczesnej Europy oraz wyzwania, które przed nią stoją.</section>
+            </main>
+        </div>
+        <div id="gallery">
+            <header>Galeria</header>
+            <main>
+                <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+                    <div class="splide__track">
+                          <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <img src="./assets/images/carousel/carousel_1.png" alt="karuzela :))" width="400px">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./assets/images/carousel/carousel_2.png" alt="karuzela :))" width="200px">
+                                </li>
+                                <li class="splide__slide">
+                                    <img src="./assets/images/carousel/carousel_3.png" alt="karuzela :))" width="400px">
+                                </li>
+                          </ul>
+                    </div>
+                  </section>
+            </main>
+            <script>
+                new Splide( '#image-carousel' ).mount();
+              </script>
+        </div>
+        <footer>
+            Made with ❤️ by malaga team
+        </footer>
     </div>
 </body>
 </html>
