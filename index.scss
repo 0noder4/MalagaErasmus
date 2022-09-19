@@ -147,6 +147,40 @@ html {
     }
   }
 
+  #freetime {
+    scroll-snap-align: start;
+    height: 80vh;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    aside {
+      flex: 1;
+
+      figure {
+        display: flex;
+        justify-content: right;
+      }
+    }
+
+    main {
+      flex: 1;
+      font-family: "SourceSansPro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 34px;
+
+      header {
+        margin-bottom: 15px;
+        font-family: "LuckiestGuy", "Times New Roman", Times, serif;
+        font-size: 2.5em;
+      }
+    }
+  }
+
   #workplace {
     scroll-snap-align: start;
     height: 100vh;
@@ -192,6 +226,35 @@ html {
           font-size: 1.25em;
           line-height: 1.5em;
         }
+      }
+    }
+  }
+
+  #recruitment {
+    scroll-snap-align: start;
+    height: 80vh;
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    aside {
+      flex: 1;
+    }
+
+    main {
+      flex: 1;
+      font-family: "SourceSansPro";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 34px;
+
+      header {
+        margin-bottom: 15px;
+        font-family: "LuckiestGuy", "Times New Roman", Times, serif;
+        font-size: 2.5em;
       }
     }
   }
