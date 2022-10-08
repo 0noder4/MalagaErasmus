@@ -3,9 +3,9 @@
 ## Prerequisites
 
 - sass
-  `npm install sass`
+  ```npm install sass```
 
 ## Running
   
-`sass index.scss index.css`
+```sass index.scss index.css```
 
