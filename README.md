@@ -1,6 +1,11 @@
 # MalagaErasmus
 
-## Running
+## Prerequisites
 
-to run the project install sass using npm: `npm install sass`
-then convert sass stylesheet to css `sass index.scss index.css`
+- sass
+  `npm install sass`
+
+## Running
+  
+`sass index.scss index.css`
+
