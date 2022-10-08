@@ -4,9 +4,13 @@
 
 - sass
 
-  ```npm install sass```
+  ```npm
+  npm install sass
+  ```
 
 ## Running
   
-  ```sass index.scss index.css```
+  ```npm
+  sass index.scss index.css
+  ```
 
